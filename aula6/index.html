@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
+    <title>Seções</title>
+</head>
+<body>
+    <nav>
+        <a href="aula6/index.html">Home |</a>
+        <a href="aula6/contatos.html">Contatos |</a>
+        <a href="aula6/saiba.html">Saiba Mais</a>
+    </nav>
+    <!--deixe seu comentario thata-->
+    <header>
+        <h1>Header</h1>
+    </header>
+    <aside>
+        <h3>Aside</h3>
+    </aside>
+    <section>
+        <h3>Atividades</h3>
+        
+        <figure>
+            <img src="/violao.png" alt=""  title="Amo tocar violão" width="100" height="100" loading="lazy">
+            <figcaption>Amo tocar violão</figcaption>
+        </figure>
+        <figure>
+            <img src="/skate.png" alt="" width="100" height="100">
+            <figcaption>Ando de skate na UFJF</figcaption>
+        </figure>    
+               
+        <figure>
+            <img src="/livro-de-desenho.png" alt="" width="100" height="100">
+            <figcaption>Desenho junto com meu namorado</figcaption>
+        </figure>
+    </section>
+    <section>
+        <h3>Imagens Responsivas</h3>
+        <article>
+            <h1>Imagens</h1>
+            <hr>
+            <img srcset="/reduced/reduced/01-320w.jpg 320w,
+                        /reduced/reduced/01-480w.jpg 480w,
+                        /reduced/reduced/01-800w.jpg 800w"
+                        sizes="(max-width=320px) 280px,
+                               (max-width=480px) 440px,
+                               800px"
+            src="/reduced/reduced/01-800w.jpg" 
+            >
+        </article>
+
+    </section>
+   <footer><p>footer</p>
+   </footer>
+</body>
+</html>
